@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "operation": "image.generate",
+      "prompt": "A fictional ceramic atelier named FORM / EARTH. A beautiful editorial website concept with oversized clay-colored typography, a sculptural cobalt vase, irregular photographic cropping, warm ivory background. A confident, distinctive composition with no laptop frame. Main heading: Objects with a human pulse.",
+      "style": "interface",
+      "aspect": "landscape",
+      "size": 768,
+      "seed": 4101
+    },
+    {
+      "operation": "image.generate",
+      "prompt": "NIGHT GARDEN, a fictional botanical hotel. An immersive homepage concept: deep plum night sky, luminous tropical foliage, small acid-yellow type, cinematic pool reflection, daring asymmetric layout. Main heading: Stay a little wild. Sophisticated and quiet, not a generic resort template.",
+      "style": "interface",
+      "aspect": "landscape",
+      "size": 768,
+      "seed": 4102
+    },
+    {
+      "operation": "image.generate",
+      "prompt": "SLOW FAST CLUB, a fictional community running brand. A joyful art-directed campaign with cobalt blue, butter yellow, tactile paper collage, a runner's exaggerated shadow, and a big expressive typographic headline: Your pace. Our place. A strong single visual idea, immediately understandable.",
+      "style": "playful",
+      "aspect": "social",
+      "size": 768,
+      "seed": 4103
+    },
+    {
+      "operation": "audio.design",
+      "prompt": "Three brands. Three completely different worlds. Your website should feel like you, not like everyone else.",
+      "model": "voxcpm2",
+      "direction": "Warm, conversational and confident. Pause between the first two sentences. No exaggerated announcer voice."
+    }
+  ]
+}

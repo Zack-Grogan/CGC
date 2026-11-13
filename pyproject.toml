@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "creative-generation-control"
+version = "0.4.1"
+description = "Remote creative generation queue with checked media, animation and game asset delivery"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [{name = "Zack Grogan"}]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/Zack-Grogan/CGC"
+Issues = "https://github.com/Zack-Grogan/CGC/issues"
+
+[project.scripts]
+cgc = "cgc.cli:main"
+
+[tool.setuptools]
+packages = ["cgc"]
+
+[tool.setuptools.package-data]
+cgc = ["*.cpp", "*.cjs"]

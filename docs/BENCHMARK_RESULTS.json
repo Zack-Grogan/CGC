@@ -1,0 +1,284 @@
+{
+  "date": "2026-11-08",
+  "machine": "Apple M4 Mac mini, 16 GB unified memory",
+  "heavy_jobs": "sequential",
+  "free_disk_gib": 10.76,
+  "runs": [
+    {
+      "test": "flux3_generate",
+      "status": "completed",
+      "model": "flux3",
+      "elapsed_seconds": 166.971,
+      "first_download_seconds_approx": 100.0,
+      "model_processing_seconds": 54,
+      "backend_peak_mlx_gb": 3.6,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-generate-512.png",
+        "bytes": 359465,
+        "sha256": "acfbb8b5075503986acb5e18124671e27ea9a7d746af69e07a049a341e5e919f",
+        "width": 512,
+        "height": 512
+      },
+      "model_snapshot": {
+        "repository": "mflux-community/flux-3-image-klein-mflux-q4",
+        "cached_main_revision": "79c0034de040c460e9685bf0127f40af042a2abe"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-generate-512.png.json"
+    },
+    {
+      "test": "flux3_generate_1024_cold_cached",
+      "status": "completed",
+      "model": "flux3",
+      "elapsed_seconds": 243.622,
+      "first_download_seconds_approx": 0,
+      "model_processing_seconds": 234,
+      "backend_peak_mlx_gb": 3.9,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-generate-1024.png",
+        "bytes": 1350231,
+        "sha256": "c06b2223af84aa900cb020f7d5482a7debf7489952688e660714d10cc9d0c74c",
+        "width": 1024,
+        "height": 1024
+      },
+      "model_snapshot": {
+        "repository": "mflux-community/flux-3-image-klein-mflux-q4",
+        "cached_main_revision": "79c0034de040c460e9685bf0127f40af042a2abe"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-generate-1024.png.json"
+    },
+    {
+      "test": "flux3_background_edit",
+      "status": "completed",
+      "model": "flux3",
+      "elapsed_seconds": 110.227,
+      "first_download_seconds_approx": 0,
+      "model_processing_seconds": 104,
+      "backend_peak_mlx_gb": 4.23,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-edit-background-512.png",
+        "bytes": 413976,
+        "sha256": "263a3ae4830adcb0e73b6ce1c3b9c4441c9971f6834edc8ecdfac27d6005f1c9",
+        "width": 512,
+        "height": 512
+      },
+      "model_snapshot": {
+        "repository": "mflux-community/flux-3-image-klein-mflux-q4",
+        "cached_main_revision": "79c0034de040c460e9685bf0127f40af042a2abe"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-edit-background-512.png.json"
+    },
+    {
+      "test": "fibo2_color_edit",
+      "status": "completed",
+      "model": "fibo2-edit",
+      "elapsed_seconds": 203.046,
+      "first_download_seconds_approx": 135.0,
+      "model_processing_seconds": 55,
+      "backend_peak_mlx_gb": 5.37,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-fibo2-edit-color-512.png",
+        "bytes": 294462,
+        "sha256": "ee759b9a87343ea57a438acc73a308c5230af13314ce7318f6961a28ed657777",
+        "width": 512,
+        "height": 512
+      },
+      "model_snapshot": {
+        "repository": "mflux-community/fibo-2-0-edit-turbo-mflux-q4",
+        "cached_main_revision": "b7c949d7e2a9e3e6b86859a3a97a40f7318293c4"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-fibo2-edit-color-512.png.json"
+    },
+    {
+      "test": "flux3_color_edit",
+      "status": "completed",
+      "model": "flux3",
+      "elapsed_seconds": 109.755,
+      "first_download_seconds_approx": 0,
+      "model_processing_seconds": 104,
+      "backend_peak_mlx_gb": 4.23,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-edit-color-512.png",
+        "bytes": 346886,
+        "sha256": "8281fd1928f7100eefa23cd67d50f7f4b033aca2019e6d04f29ca509b5a960fe",
+        "width": 512,
+        "height": 512
+      },
+      "model_snapshot": {
+        "repository": "mflux-community/flux-3-image-klein-mflux-q4",
+        "cached_main_revision": "79c0034de040c460e9685bf0127f40af042a2abe"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-flux3-edit-color-512.png.json"
+    },
+    {
+      "test": "phonon_speech",
+      "status": "completed",
+      "model": "phonon",
+      "elapsed_seconds": 3.399,
+      "first_download_seconds_approx": 0,
+      "model_processing_seconds": null,
+      "backend_peak_mlx_gb": null,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-phonon-speech-retry.wav",
+        "bytes": 480044,
+        "sha256": "b6ecefb1d1aca8973df7fcb2b743bbd355965a4df8c9607a15450cb9c78dd05f",
+        "sample_rate": 24000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "wav_format": 1,
+        "duration_seconds": 10.0
+      },
+      "model_snapshot": {
+        "repository": "gradium/phonon-31m-en",
+        "cached_main_revision": "92741c5b07d085ff840e26fea8ce43110b87852f"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-phonon-speech-retry.wav.json",
+      "transcription_qa": {
+        "model": "mlx-community/whisper-tiny-asr-fp16",
+        "normalized_words_match": true,
+        "expected_words": 24,
+        "actual_words": 24,
+        "transcript": "Three brands, three completely different worlds. Welcome to Night Garden where every detail tells a story. Take a breath, then imagine what comes next.",
+        "scope": "intelligibility smoke test only"
+      }
+    },
+    {
+      "test": "voxcpm2_design",
+      "status": "completed",
+      "model": "voxcpm2",
+      "elapsed_seconds": 60.343,
+      "first_download_seconds_approx": 40.0,
+      "model_processing_seconds": null,
+      "backend_peak_mlx_gb": null,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-voxcpm2-design.wav",
+        "bytes": 675900,
+        "sha256": "2a9bd8d60ba16936aa1c20f964e5d6b8a1a289b6ce77974979093e286132671b",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "wav_format": 1,
+        "duration_seconds": 7.0402
+      },
+      "model_snapshot": {
+        "repository": "mlx-community/VoxCPM2-4bit",
+        "cached_main_revision": "dc9e5c187858da5f4a13dc4c247e297339216381"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-voxcpm2-design.wav.json",
+      "transcription_qa": {
+        "model": "mlx-community/whisper-tiny-asr-fp16",
+        "normalized_words_match": true,
+        "expected_words": 23,
+        "actual_words": 23,
+        "transcript": "Welcome to Night Garden. This is a clean synthetic voice reference for our local creative tools. Every small detail tells a bigger story.",
+        "scope": "intelligibility smoke test only"
+      }
+    },
+    {
+      "test": "voxcpm2_synthetic_clone",
+      "status": "completed",
+      "model": "voxcpm2",
+      "elapsed_seconds": 19.123,
+      "first_download_seconds_approx": 0,
+      "model_processing_seconds": 13.29,
+      "backend_peak_mlx_gb": 3.46,
+      "artifact": {
+        "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-voxcpm2-clone.wav",
+        "bytes": 614460,
+        "sha256": "2fc4b3683cefb7949cba90d660a7cf7efd8896c184c9a28a7219c0a51c743e30",
+        "sample_rate": 48000,
+        "channels": 1,
+        "bits_per_sample": 16,
+        "wav_format": 1,
+        "duration_seconds": 6.4002
+      },
+      "model_snapshot": {
+        "repository": "mlx-community/VoxCPM2-4bit",
+        "cached_main_revision": "dc9e5c187858da5f4a13dc4c247e297339216381"
+      },
+      "receipt": "/Users/zgrogan/Repos/CGC/outputs/benchmark-voxcpm2-clone.wav.json",
+      "transcription_qa": {
+        "model": "mlx-community/whisper-tiny-asr-fp16",
+        "normalized_words_match": true,
+        "expected_words": 18,
+        "actual_words": 18,
+        "transcript": "Three brands, three completely different worlds. This new sentence uses our generated reference voice, not a real person.",
+        "scope": "intelligibility smoke test only"
+      }
+    }
+  ],
+  "limitations": [
+    "Small illustrative samples, not a model leaderboard.",
+    "Peak MLX memory is backend-reported, not whole-system memory.",
+    "Transcription QA does not measure naturalness or speaker similarity.",
+    "Licensing scope is not independently verified.",
+    "No human voice was cloned."
+  ],
+  "blender": {
+    "blender_version": "5.2.3 LTS",
+    "engine": "BLENDER_EEVEE",
+    "elapsed_seconds": 3.972,
+    "width": 320,
+    "height": 320,
+    "image": "/Users/zgrogan/Repos/CGC/outputs/benchmark-blender-eevee.png",
+    "scene": "/Users/zgrogan/Repos/CGC/outputs/benchmark-blender-eevee.blend",
+    "status": "completed",
+    "process_wall_seconds": 6.94,
+    "artifact": {
+      "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-blender-eevee.png",
+      "bytes": 115641,
+      "sha256": "7b29f9051671c795c8f17f1e996bc2d35eca4502d9b0bb68c1d486f138e13e18",
+      "width": 320,
+      "height": 320
+    }
+  },
+  "blender_motion": {
+    "status": "completed",
+    "blender_version": "5.2.3 LTS",
+    "engine": "BLENDER_EEVEE",
+    "frames": 12,
+    "width": 320,
+    "height": 320,
+    "fps": 12,
+    "duration_seconds": 1,
+    "render_seconds": 4.775,
+    "frames_directory": "/Users/zgrogan/Repos/CGC/outputs/benchmark-blender-motion-frames",
+    "artifact": {
+      "path": "/Users/zgrogan/Repos/CGC/outputs/benchmark-blender-motion.mp4",
+      "bytes": 12484,
+      "sha256": "5f35e18c25ffcd4fc96a74c7d66182d3e7acce3a13b69b4343f0cf52aede9832"
+    },
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 320,
+          "height": 320,
+          "r_frame_rate": "12/1",
+          "nb_frames": "12"
+        }
+      ],
+      "format": {
+        "duration": "1.000000",
+        "size": "12484"
+      }
+    }
+  },
+  "blocked": [
+    {
+      "model": "qwen-image-2.1",
+      "attempt": "read-only preflight; no download or inference",
+      "free_disk_gib": 9.81,
+      "status": "blocked",
+      "reason": "Only 9.8 GiB free near output; allow approximately 17.8 GiB for this run including a reserve."
+    },
+    {
+      "model": "qwen-image-2.1-turbo",
+      "attempt": "read-only preflight; no download or inference",
+      "free_disk_gib": 9.81,
+      "status": "blocked",
+      "reason": "Only 9.8 GiB free near output; allow approximately 16.9 GiB for this run including a reserve."
+    }
+  ]
+}

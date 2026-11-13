@@ -1,0 +1,5 @@
+#!/bin/sh
+# Works from any directory. Does not install packages or download models.
+CGC_ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+export PYTHONPATH="$CGC_ROOT${PYTHONPATH:+:$PYTHONPATH}"
+exec python3 -m cgc "$@"
